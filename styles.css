@@ -1,38 +1,93 @@
-body{
-    font-family:  Roboto, sans-serif;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
-
-header, .hero{
-    background-color: #1f2937;
-    color: white;
-}
-
-a, p{
-    text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-.navbar{
+header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
+    padding: 20px;
+    background-color: #1e293b;
+    color: white;
 }
-h1{
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
-}
-
-
-.navlinks{
+nav ul {
+    list-style: none;
     display: flex;
     gap: 20px;
 }
-
-.hero{
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
     display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #1e293b;
+    color: white;
+}
+.hero-text {
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+}
+.hero-text button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero-image {
+    background-color: #4b5563;
+    width: 40%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.info {
+    padding: 50px;
+}
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+}
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+    font-style: italic;
+}
+.cta {
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.cta-content {
+    background-color: #3b82f6;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    border-radius: 10px;
+}
+.cta-content button {
+    background-color: #3b82f6;
+    color: white;
+    border: 1 solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
 }
